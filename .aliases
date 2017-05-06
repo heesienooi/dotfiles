@@ -9,7 +9,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias p="cd ~/projects"
+alias p="cd ~/Projects"
 alias g="git"
 
 # Git aliases
