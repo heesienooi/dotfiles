@@ -1,2 +1,20 @@
 # Disable the startup message
 startup_message off
+
+# Set a large scrollback buffer
+defscrollback 32000
+termcapinfo xterm* ti@:te@
+altscreen on
+
+# Always start `screen` with UTF-8 enabled (`screen -U`)
+defutf8 on
+
+# Show status bar 
+hardstatus on
+hardstatus alwayslastline
+hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H  %{KW}%D %M %d %Y%{= Kc} %C%A%{-}'
+
+# Turn off screen flash
+vbell off
+
+screen bash -l
