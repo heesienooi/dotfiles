@@ -10,7 +10,6 @@ alias -- -="cd -"
 
 # Shortcuts
 alias p="cd ~/Projects"
-alias g="git"
 
 # Git aliases
 alias g='git'
